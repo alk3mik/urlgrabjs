@@ -1,0 +1,25 @@
+{
+  "name": "urlgrabjs",
+  "version": "1.0.0",
+  "description": "It allows to take screenshots of any URL having the prefix http:// or https://",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alk3mik/urlgrabjs.git"
+  },
+  "keywords": [],
+  "author": "Massimiliano Porrini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alk3mik/urlgrabjs/issues"
+  },
+  "homepage": "https://github.com/alk3mik/urlgrabjs#readme",
+  "dependencies": {
+    "phantomjs-prebuilt": "^2.1.14",
+    "readline-sync": "^1.4.7"
+  }
+}
