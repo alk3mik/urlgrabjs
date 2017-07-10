@@ -55,7 +55,7 @@ outName = extractSiteName(url);
 // Type de format de l'image de sortie (PNG et JPG)
 imgFmt = readLineSync.question(imgFmtQuestion);
 
-if (!imgFmt) {
+if (imgFmt !== "png" || imgFmt !== "jpg") {
 	imgFmt = "png";
 }
 
@@ -66,7 +66,7 @@ if (!zoom) {
 	zoom = 1;
 }
 
-// message d'attente
+// Message d'attente
 console.log("\nCela va prendre quelques seconds...\n");
 
 // Include le fichier JSON (qui contient les tailles des dispositifs)
